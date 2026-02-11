@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Zelda Remake + Twin Chain Trial - Michael Shepard</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Michael Shepard</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html" class="active">Zelda Project</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Legend of Zelda Remake + “Twin Chain Trial”</h1>
+
+							<span class="image fit"><img src="images/chaos.png" alt="Zelda Remake Screenshot" /></span>
+
+							<p>This project is a Unity recreation of the first dungeon experience from the original Legend of Zelda, rebuilt with modern, reliable systems while preserving the classic feel. It includes player movement and combat, enemy behaviors, room-to-room transitions, item interactions, and dungeon progression designed to mirror the pacing and readability of the NES original.</p>
+
+							<p>After completing the classic dungeon recreation, we extended the game with a custom “P1 Gold” feature: a new weapon mechanic inspired by the Blade of Chaos, and a custom dungeon called <b>Twin Chain Trial</b> built to teach and test that mechanic. The goal was to add something novel that changes gameplay decisions, while still feeling consistent with Zelda-style room-based design.</p>
+
+							<h2>Classic Dungeon Recreation</h2>
+							<p>The classic portion recreates the structure and intention of the original dungeon: clear room identities, enemy-driven pacing, and a sense of progression through locked doors, combat gates, and rewards. The design emphasizes readable encounters, predictable collisions, and snappy combat feedback, so the player understands why they were hit and how to improve on the next attempt.</p>
+
+							<h2>Twin Chain Trial (Custom Dungeon + New Mechanic)</h2>
+							<p>Twin Chain Trial is a custom dungeon designed around two ideas: a hold-to-extend chained blade attack and simultaneous input activation. Early rooms teach the mechanic without long text by placing an enemy just outside normal sword range, making the “hold” behavior the obvious solution. Later rooms increase the difficulty by combining spaced enemies, commitment windows, and puzzles that require activating two targets at the same time to open doors.</p>
+
+							<p>This changes the way the game is played by shifting combat from quick taps and constant movement toward deliberate positioning and commitment-based decisions. Extending the blade increases range and utility, but creates vulnerability windows where the player must plan their spacing carefully. The simultaneous activation puzzles reinforce control mastery under pressure and create moments where timing matters as much as positioning.</p>
+
+							<h2>My Contributions</h2>
+							<p><b>Gameplay & systems:</b> combat systems, knockback logic, enemy AI state machines, and debugging timing/physics edge cases.</p>
+							<p><b>Sprite & animation logic:</b> full player/enemy sprite animation system including directional sprite sets, walk/idle/attack transitions, frame timing, and hit-feedback visuals (hurt/flash behavior).</p>
+							<p><b>Custom content:</b> implementation of the chained-blade mechanic (hold-to-extend + retract), simultaneous activation logic, and the Twin Chain Trial dungeon layout designed to teach the mechanic through gameplay.</p>
+							
+							<h2>Technology Used</h2>
+<p>This project was developed in <b>Unity (2D)</b> using <b>C#</b>. Gameplay systems were implemented using Unity’s component-based architecture and extensive use of <b>coroutines</b> to manage timed behaviors such as attack windows, animation sequencing, enemy stun states, projectile lifetimes, and delayed effects. Sprite animation, combat interactions, and input-based abilities were coordinated through coroutine-driven timing rather than relying solely on Update loops.</p>
+
+							<h2>Play the Web Build</h2>
+							<p>You can play the WebGL build here:</p>
+							<ul class="actions">
+								<li><a href="REPLACE_WITH_YOUR_WEB_BUILD_URL" class="button primary" target="_blank" rel="noopener noreferrer">Play Web Build</a></li>
+							</ul>
+
+							<p>If the build takes a moment to load, that is normal for WebGL projects. For best results, use Chrome or Firefox on desktop.</p>
+
+							<ul class="actions">
+								<li><a href="index.html#one" class="button">Back to Projects</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Michael Shepard. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
