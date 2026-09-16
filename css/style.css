@@ -256,6 +256,8 @@ a {
   line-height: 1.6;
   color: var(--color-ink-muted);
   margin: 0;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .hero-subtitle strong {
@@ -398,9 +400,12 @@ a {
 
 .project-card-desc {
   font-size: 0.82rem;
-  line-height: 1.6;
+  line-height: 1.5;
   color: var(--color-ink-muted);
   margin: 0;
+  max-width: 42ch;
+  text-align: justify;
+  hyphens: auto;
 }
 
 /* ── Page shell (About / Projects) ───────────────────────────── */
@@ -454,9 +459,11 @@ a {
 }
 
 .bio-box p {
-  line-height: 1.8;
-  max-width: 72ch;
+  line-height: 1.5;
+  max-width: 58ch;
   margin: 0;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .bio-box p.lead {
@@ -495,7 +502,7 @@ a {
 .skill-card-content {
   font-family: var(--font-mono);
   font-size: 0.78rem;
-  line-height: 1.75;
+  line-height: 1.5;
   color: var(--color-ink-muted);
   white-space: pre-line;
   margin: 0;
@@ -616,9 +623,12 @@ a {
 
 .folder-desc {
   font-size: 0.82rem;
-  line-height: 1.6;
+  line-height: 1.5;
   color: var(--color-ink-muted);
   margin: 0;
+  max-width: 42ch;
+  text-align: justify;
+  hyphens: auto;
 }
 
 /* ── Games page (list) ────────────────────────────────────────── */
@@ -692,10 +702,12 @@ a {
 
 .game-row-desc {
   font-size: 0.85rem;
-  line-height: 1.65;
+  line-height: 1.5;
   color: var(--color-ink-muted);
   margin: 0;
-  max-width: 60ch;
+  max-width: 55ch;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .game-row-tags {
@@ -801,10 +813,12 @@ a {
 
 .detail-desc {
   font-size: 1rem;
-  line-height: 1.8;
+  line-height: 1.5;
   color: var(--color-ink-muted);
-  max-width: 68ch;
+  max-width: 58ch;
   margin: 0 0 1.5rem;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .detail-tags {
@@ -834,10 +848,12 @@ a {
 
 .feature-desc {
   font-size: 0.85rem;
-  line-height: 1.7;
+  line-height: 1.5;
   color: var(--color-ink-muted);
   margin: 0 0 0.85rem;
-  max-width: 65ch;
+  max-width: 55ch;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .feature-tags {
@@ -858,9 +874,12 @@ a {
 
 .resume-toolbar p {
   font-size: 0.85rem;
+  line-height: 1.5;
   color: var(--color-ink-muted);
   margin: 0;
   max-width: 46ch;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .resume-contact {
@@ -891,9 +910,12 @@ a {
 
 .resume-skill-row {
   font-size: 0.85rem;
-  line-height: 1.7;
+  line-height: 1.5;
   color: var(--color-ink-muted);
   margin: 0;
+  max-width: 58ch;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .resume-skill-row strong {
@@ -925,6 +947,18 @@ a {
   margin: 0;
 }
 
+.resume-entry-title a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.resume-entry-title a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .resume-entry-dates {
   font-family: var(--font-mono);
   font-size: 0.7rem;
@@ -951,8 +985,11 @@ a {
 
 .resume-bullets li {
   font-size: 0.85rem;
-  line-height: 1.65;
+  line-height: 1.5;
   color: var(--color-ink-muted);
+  max-width: 58ch;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .resume-bullets li strong {
@@ -1036,9 +1073,11 @@ a {
 
 .experience-row-desc {
   font-size: 0.85rem;
-  line-height: 1.65;
+  line-height: 1.5;
   color: var(--color-ink-muted);
   margin: 0.25rem 0 0;
-  max-width: 62ch;
+  max-width: 55ch;
+  text-align: justify;
+  hyphens: auto;
 }
 
