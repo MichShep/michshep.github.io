@@ -1,238 +1,159 @@
-<!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Michael Shepard Game Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michael Shepard</title>
+    <meta name="description" content="Michael Shepard — Computer Science &amp; Electrical Engineering @ University of Michigan." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="index.html" class="brand">
+        <span class="brand-mark"><span>MS</span></span>
+        <span class="brand-name">Michael Shepard</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link active">Featured</a>
+        <a href="about.html" class="nav-link">About Me</a>
+        <a href="experience.html" class="nav-link">Experience</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="resume.html" class="nav-link">Resume</a>
+      </nav>
+    </header>
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Projects</a></li>
-							<li><a href="#two">Skills</a></li>
-							<li><a href="#three">Contact</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+    <main>
+      <section class="hero">
+        <div class="hero-rule"></div>
+        <h1 class="hero-title">Michael Shepard</h1>
+        <div class="hero-meta">
+          <p class="hero-subtitle">
+            Computer Science &amp; Electrical Engineering&nbsp;&nbsp;@&nbsp;&nbsp;<strong>University of Michigan</strong>
+          </p>
+          <div class="hero-links">
+            <a href="https://github.com/MichShep" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com/in/michael-shepard-356288233" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="mailto:michshep@umich.edu">Email</a>
+            <a href="resume.html">Resume</a>
+          </div>
+        </div>
+      </section>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+      <section id="experience" class="featured" style="padding-bottom: 3rem;">
+        <div class="section-label-row">
+          <span class="section-label">Experience</span>
+          <div class="section-rule"></div>
+          <span class="section-note">current role</span>
+        </div>
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>Michael Shepard's Game Portfolio</h1>
-							<p>I build games and game systems with a focus on gameplay mechanics, enemy behavior, and polished moment-to-moment feel. This portfolio highlights projects I’ve worked on, what I contributed, and playable builds when available.</p>
-							<ul class="actions">
-								<li><a href="#one" class="button scrolly">View Projects</a></li>
-							</ul>
-						</div>
-					</section>
+        <article class="experience-row" style="border-bottom: none; padding: 0;">
+          <a href="experience-nasa-sunrise.html">
+            <div class="experience-row-media">
+              <img src="images/nasa-sunrise.jpg" alt="Space station in orbit at night" />
+            </div>
+          </a>
+          <div class="experience-row-body">
+            <p class="experience-row-role">Software and Data Analysis Co-Lead &middot; Jan 2025 – Present</p>
+            <h3 class="experience-row-title"><a href="experience-nasa-sunrise.html">NASA SunRISE Heliophysics Mission</a></h3>
+            <p class="experience-row-org">University of Michigan — Ann Arbor, Michigan</p>
+            <p class="experience-row-desc">Co-leading a software and data-analysis subteam of 10+ engineers supporting a live NASA mission — a multithreaded C++ FX-correlation and beamforming pipeline for a 20+ antenna ground array.</p>
+          </div>
+        </article>
+      </section>
 
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-						<a href="#" class="image">
-							<img src="images/ISS.png" alt="Insane Space Survival Screenshot" data-position="center center" />
-						</a>
-						<div class="content">
-							<div class="inner">
-								<h2>Insane Space Survival – Unity</h2>
-								<p>
-									A systemic space survival game built in Unity focused on cascading disasters, oxygen management, and player-driven recovery under pressure.
-									Players must stabilize a failing ship while reacting to meteor storms, radiation bursts, hull breaches, and self-destruct sequences.
-								</p>
-								<p>
-									The project emphasizes readable UI, feedback-driven mechanics, and disaster tuning so that outcomes feel tied to player decisions rather than randomness.
-									Key systems include procedural ship generation, air flow simulation, event-driven disaster planning, and helmet-based HUD feedback.
-								</p>
-								<p><b>My contributions:</b> full gameplay architecture, procedural generation system, disaster planner logic, oxygen simulation, UI feedback systems, tutorial flow, and gameplay tuning.</p>
+      <section id="featured" class="featured" style="padding-top: 0;">
+        <div class="section-label-row">
+          <span class="section-label">Featured</span>
+          <div class="section-rule"></div>
+          <span class="section-note">best works</span>
+        </div>
 
-								<ul class="actions">
-									<li>
-										<a href="https://mich0shep1.itch.io/insane-space-survival" class="button primary" target="_blank" rel="noopener noreferrer">
-											Play Web Build
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-</section>
+        <div class="card-grid">
+          <a class="project-card" href="project-war-of-the-ring.html">
+            <div class="project-card-media">
+              <img src="images/war-of-the-ring.jpg" alt="Game controller close-up" />
+              <div class="project-card-overlay"></div>
+              <div class="project-card-tags">
+                <span class="tag">C#</span>
+                <span class="tag">Unity</span>
+                <span class="tag">Networking</span>
+              </div>
+            </div>
+            <div class="project-card-meta">
+              <p class="project-card-role">Personal Project&nbsp;&nbsp;&middot;&nbsp;&nbsp;2025–Present</p>
+              <h3 class="project-card-title">War of the Ring</h3>
+              <p class="project-card-desc">A networked, server-authoritative digital adaptation of the War of the Ring board game — 25,000 lines of C# in Unity.</p>
+            </div>
+          </a>
 
-						<section>
-							<a href="#" class="image"><img src="images/zelda.png" alt="Zelda Project Screenshot" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Legend of Zelda Remake + “Twin Chain Trial”</h2>
-									<p>A recreation of classic Zelda gameplay mechanics built in Unity, featuring player combat, enemy AI, knockback systems, room transitions, and item usage. The project culminates in a custom dungeon called “Twin Chain Trial,” designed around an original mechanic inspired by the Blade of Chaos.</p>
-									<p>The new mechanic introduces a hold-to-extend chained blade and simultaneous dual-button activation puzzles. The dungeon layout forces players to commit to extended attacks, manage vulnerability windows, and make positioning-based combat decisions rather than relying on quick sword taps.</p>
-									<p><b>My contributions:</b> combat systems, knockback logic, half of the enemy AI, full player and enemy sprite animation logic (directional sprite sets, sprite state transitions, frame timing control, and hit-flash effects), custom chained-blade mechanic implementation, dungeon layout design, and debugging edge cases involving timing, physics interactions, and simultaneous input coordination.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Project Details</a></li>
-									</ul>
-									<li><a href="https://mich0shep1.itch.io/legend-of-zelda-dual-chains" class="button primary" target="_blank" rel="noopener noreferrer">Play Web Build</a></li>
+          <a class="project-card" href="project-gba.html">
+            <div class="project-card-media">
+              <img src="images/gba-engine.jpg" alt="White Nintendo Game Boy" />
+              <div class="project-card-overlay"></div>
+              <div class="project-card-tags">
+                <span class="tag">C</span>
+                <span class="tag">ARM Assembly</span>
+                <span class="tag">Embedded</span>
+              </div>
+            </div>
+            <div class="project-card-meta">
+              <p class="project-card-role">Personal Project&nbsp;&nbsp;&middot;&nbsp;&nbsp;2025–Present</p>
+              <h3 class="project-card-title">GBA Bare-Metal Game Engine</h3>
+              <p class="project-card-desc">A bare-metal game engine in C and ARM assembly for the Game Boy Advance, built without an OS.</p>
+            </div>
+          </a>
 
-								</div>
-							</div>
-						</section>
+          <a class="project-card" href="project-riscv.html">
+            <div class="project-card-media">
+              <img src="images/riscv-processor.jpg" alt="Blue circuit board close-up" />
+              <div class="project-card-overlay"></div>
+              <div class="project-card-tags">
+                <span class="tag">SystemVerilog</span>
+                <span class="tag">RISC-V</span>
+                <span class="tag">RTL</span>
+              </div>
+            </div>
+            <div class="project-card-meta">
+              <p class="project-card-role">Team Project&nbsp;&nbsp;&middot;&nbsp;&nbsp;2025</p>
+              <h3 class="project-card-title">Superscalar RISC-V Processor</h3>
+              <p class="project-card-desc">A 3-way superscalar, out-of-order RV32IM processor with speculative execution and precise retirement.</p>
+            </div>
+          </a>
 
-						<section>
-							<a href="#" class="image"><img src="images/resonant.png" alt="Resonant GBA Screenshot" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Resonant – Game Boy Advance Project</h2>
-									<p>Resonant is an original Game Boy Advance game developed in C with hardware-level control over sprites, palettes, tiles, and memory. The game explores a post-apocalyptic world centered around energy-themed creatures called SoulNodes.</p>
-									<p>The project includes custom sprite systems, animation lookup tables, pathfinding, collision grids, dialogue rendering, and optimized memory usage tailored to GBA constraints. A major focus was efficient rendering and clean system architecture under hardware limitations.</p>
-									<p><b>Current Systems:</b> core engine architecture, sprite management, animation LUT system, collision detection, NPC movement logic, text rendering pipeline, and hardware-conscious optimization.</p>
-									<ul class="actions">
-									</ul>
-								</div>
-							</div>
-						</section>
+          <a class="project-card" href="project-algorithms.html">
+            <div class="project-card-media">
+              <img src="images/distance-oracle.jpg" alt="Code on a computer screen" />
+              <div class="project-card-overlay"></div>
+              <div class="project-card-tags">
+                <span class="tag">C++</span>
+                <span class="tag">Algorithms</span>
+                <span class="tag">SDL2</span>
+              </div>
+            </div>
+            <div class="project-card-meta">
+              <p class="project-card-role">Personal Project&nbsp;&nbsp;&middot;&nbsp;&nbsp;2024</p>
+              <h3 class="project-card-title">Approximate Distance Oracle Simulator</h3>
+              <p class="project-card-desc">A C++ Thorup–Zwick approximate distance oracle with an interactive SDL2 visualization tool.</p>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
 
-						<section>
-							<a href="#" class="image"><img src="images/pix2gba.png" alt="pix2gba Tool Screenshot" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Pix2GBA – Sprite & Palette Conversion Tool</h2>
-									<p>Pix2GBA is a custom tool built to convert images into Game Boy Advance–compatible tiles and palettes. It supports meta-tile sizing, palette generation, and efficient tile extraction for use in hardware-based GBA development.</p>
-									<p>The tool was designed to streamline the art pipeline for Resonant, reducing manual tile conversion and ensuring compatibility with VRAM constraints and palette limitations.</p>
-									<p><b>Technologies:</b> Python, graphics processing, palette quantization, tile slicing automation.</p>
-									<ul class="actions">
-										<li><a href="https://github.com/MichShep/pix2gba" class="button primary">View on GitHub</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-					</section>
-
-
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>Skills & Focus Areas</h2>
-							<p>I enjoy building mechanics that change how the player makes decisions. I focus on clean, bug-resistant gameplay code, readable systems, and levels that teach through design rather than long text.</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Gameplay Programming</h3>
-									<p>Player abilities, enemy behaviors, state machines, hit detection, knockback, cooldowns, and timing-sensitive systems.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-gamepad"></span>
-									<h3>Combat Feel & Tuning</h3>
-									<p>Balancing responsiveness with clarity: attack windows, telegraphing, invulnerability frames, and feedback loops.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-cog"></span>
-									<h3>Systems & Architecture</h3>
-									<p>Reusable components, consistent input handling, clean initialization, and reducing common Unity pitfalls (null refs, state bugs).</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-map"></span>
-									<h3>Level Design for Mechanics</h3>
-									<p>Rooms designed to teach mechanics naturally: safe introduction, forced-use scenarios, escalation, and payoff challenges.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-bug"></span>
-									<h3>Debugging & Reliability</h3>
-									<p>Tracking timing issues, physics edge cases, input desync, and reducing “it sometimes breaks” behavior.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Builds & Documentation</h3>
-									<p>Clear project writeups, short design pitches, controls, and playable builds (WebGL or downloadable).</p>
-								</section>
-							</div>
-							<ul class="actions">
-								<li><a href="#one" class="button">Back to Projects</a></li>
-							</ul>
-						</div>
-					</section>
-
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Get in touch</h2>
-							<p>If you’d like to contact me about a project, collaboration, or internship opportunities, the best way is email. You can also find me on GitHub/LinkedIn below.</p>
-							<div class="split style1">
-								<section>
-									<!-- Note: This template form does not actually send email unless you connect it to a backend service. -->
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="mailto:michshep@umich.edu" class="button submit">Send Email</a></li>
-										</ul>
-									</form>
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Location</h3>
-											<span>Ann Arbor, MI (or Remote)</span>
-										</li>
-										<li>
-											<h3>Email</h3>
-											<a href="mailto:michshep@umich.edu">michshep@umich.edu</a>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="https://github.com/MichShep" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="https://www.linkedin.com/in/michael-shepard-356288233/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Michael Shepard. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <footer class="site-footer">
+      <a href="index.html" class="brand">
+        <span class="brand-mark"><span>MS</span></span>
+        <span class="brand-name">Michael Shepard</span>
+      </a>
+      <div class="footer-links">
+        <a href="https://linkedin.com/in/michael-shepard-356288233" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:michshep@umich.edu">Email</a>
+        <a href="resume.html">Resume</a>
+        <a href="https://github.com/MichShep" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </footer>
+  </body>
 </html>

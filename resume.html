@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume — Michael Shepard</title>
+    <meta name="description" content="Michael Shepard's resume — Computer Science & Electrical Engineering, University of Michigan." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="index.html" class="brand">
+        <span class="brand-mark"><span>MS</span></span>
+        <span class="brand-name">Michael Shepard</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Featured</a>
+        <a href="about.html" class="nav-link">About Me</a>
+        <a href="experience.html" class="nav-link">Experience</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="resume.html" class="nav-link active">Resume</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      <h2 class="page-heading">Resume</h2>
+
+      <div class="resume-toolbar">
+        <p>Computer Science &amp; Electrical Engineering at the University of Michigan — embedded systems, computer architecture, and software engineering.</p>
+        <a class="btn btn-primary" href="assets/Michael_Shepard_Resume.pdf" download>Download PDF</a>
+      </div>
+
+      <div class="resume-contact">
+        <span>Ann Arbor, Michigan</span>
+        <a href="mailto:michshep@umich.edu">michshep@umich.edu</a>
+        <a href="https://linkedin.com/in/michael-shepard-356288233" target="_blank" rel="noopener">linkedin.com/in/michael-shepard-356288233</a>
+        <a href="https://github.com/MichShep" target="_blank" rel="noopener">github.com/MichShep</a>
+      </div>
+
+      <div class="resume-section">
+        <div class="section-label-row">
+          <span class="section-label">Education</span>
+          <div class="section-rule"></div>
+        </div>
+        <div class="resume-entry">
+          <div class="resume-entry-header">
+            <h3 class="resume-entry-title">University of Michigan</h3>
+            <span class="resume-entry-dates">Aug 2022 – Dec 2026</span>
+          </div>
+          <p class="resume-entry-subtitle">Bachelor of Science in Computer Science with Minor in Electrical Engineering — Ann Arbor, Michigan</p>
+        </div>
+      </div>
+
+      <div class="resume-section">
+        <div class="section-label-row">
+          <span class="section-label">Technical Skills</span>
+          <div class="section-rule"></div>
+        </div>
+        <div class="resume-skills">
+          <p class="resume-skill-row"><strong>Programming:</strong> C, C++, ARM Assembly, Python, Bash, MATLAB</p>
+          <p class="resume-skill-row"><strong>Embedded Systems:</strong> Bare-Metal Programming, Interrupts, DMA, Memory-Mapped I/O, Register-Level Programming, Memory-Constrained Systems</p>
+          <p class="resume-skill-row"><strong>Hardware &amp; Architecture:</strong> SystemVerilog, Verilog, RISC-V, RTL Design, Superscalar Architecture, Logic Synthesis</p>
+          <p class="resume-skill-row"><strong>Software Engineering:</strong> Data Structures &amp; Algorithms, System Design, Multithreading, Client-Server Networking</p>
+          <p class="resume-skill-row"><strong>Tools:</strong> Linux, GDB, Git, Make, CMake, Valgrind, Synopsys Design Compiler</p>
+        </div>
+      </div>
+
+      <div class="resume-section">
+        <div class="section-label-row">
+          <span class="section-label">Experience</span>
+          <div class="section-rule"></div>
+        </div>
+        <div class="resume-entry">
+          <div class="resume-entry-header">
+            <h3 class="resume-entry-title">NASA SunRISE Heliophysics Mission — University of Michigan</h3>
+            <span class="resume-entry-dates">Jan 2025 – Present</span>
+          </div>
+          <p class="resume-entry-subtitle">Software and Data Analysis Co-Lead — Ann Arbor, Michigan</p>
+          <ul class="resume-bullets">
+            <li>Co-lead a software and data-analysis subteam of <strong>10+ engineers</strong>, coordinating requirements and system integration with electrical and mechanical teams supporting a 20+ antenna ground array.</li>
+            <li>Developed and optimized a <strong>multithreaded C++ FX-correlation and beamforming</strong> pipeline for processing ground-array observations, reducing computational latency by <strong>15%</strong>.</li>
+            <li>Designed <strong>transient-detection and classification</strong> pipelines and maintained a labeled observational database for identifying solar radio bursts in high-noise data, achieving <strong>84%</strong> detection accuracy.</li>
+            <li>Configured, integrated, and troubleshot <strong>ground-array computing hardware</strong> and data-processing workflows to support reliable acquisition and analysis of antenna data on a live NASA mission.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="resume-section">
+        <div class="section-label-row">
+          <span class="section-label">Projects</span>
+          <div class="section-rule"></div>
+        </div>
+
+        <div class="resume-entry">
+          <div class="resume-entry-header">
+            <h3 class="resume-entry-title">GBA Bare-Metal Game Engine</h3>
+            <span class="resume-entry-dates">Aug 2025 – Present</span>
+          </div>
+          <p class="resume-entry-subtitle">C, ARM Assembly (ARM7TDMI), Make, GDB</p>
+          <ul class="resume-bullets">
+            <li>Developed a <strong>bare-metal</strong> embedded system in C and ARM assembly for the ARM7TDMI, directly configuring memory-mapped display, interrupt, and DMA registers without an operating system.</li>
+            <li>Sustained <strong>real-time 60 FPS</strong> performance within <strong>256 KB</strong> of memory by synchronizing operations with hardware interrupts and using DMA for data transfers.</li>
+            <li>Designed <strong>lifetime-aware memory allocators</strong> using stack-based arenas and reusable free-list memory pools, providing predictable allocation on memory-constrained hardware.</li>
+            <li>Built a Python CLI pipeline for asset compilation with deduplication, LZ77 compression, and content-based caching, reducing iteration time by <strong>80%</strong>.</li>
+          </ul>
+        </div>
+
+        <div class="resume-entry">
+          <div class="resume-entry-header">
+            <h3 class="resume-entry-title">Superscalar Out-of-Order RISC-V Processor</h3>
+            <span class="resume-entry-dates">Aug 2025 – Nov 2025</span>
+          </div>
+          <p class="resume-entry-subtitle">SystemVerilog, RISC-V, RTL Verification</p>
+          <ul class="resume-bullets">
+            <li>Collaborated on a <strong>five-person team</strong> to design and implement a 3-way superscalar, out-of-order RV32IM processor with register renaming, dynamic scheduling, speculative execution, and precise in-order retirement.</li>
+            <li>Contributed to the integration of a <strong>tournament branch predictor</strong>, early branch recovery, banked instruction caching with prefetching and a victim cache, and a load-store queue with byte-level store-to-load forwarding.</li>
+            <li>Verified the processor through module-level testbenches and automated comparisons against a golden ISA simulator, passing all provided benchmarks and achieving a synthesized <strong>20 ns clock period</strong>.</li>
+          </ul>
+        </div>
+
+        <div class="resume-entry">
+          <div class="resume-entry-header">
+            <h3 class="resume-entry-title">Approximate Distance Oracle Simulator</h3>
+            <span class="resume-entry-dates">Sept 2024 – Dec 2024</span>
+          </div>
+          <p class="resume-entry-subtitle">C++, Algorithms, Graph Theory, SDL2</p>
+          <ul class="resume-bullets">
+            <li>Implemented a C++ <strong>Thorup–Zwick distance oracle</strong> with O(k) query time and configurable tradeoffs among memory usage, preprocessing, and approximation accuracy.</li>
+            <li>Built an interactive SDL2 visualization and validation environment, leading to the project's adoption as an experimentation tool in a <strong>graduate-level algorithms course</strong>.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="resume-section">
+        <div class="section-label-row">
+          <span class="section-label">Leadership &amp; Involvement</span>
+          <div class="section-rule"></div>
+        </div>
+        <div class="resume-entry">
+          <div class="resume-entry-header">
+            <h3 class="resume-entry-title">Japanese Student Association</h3>
+            <span class="resume-entry-dates">Sept 2023 – May 2024</span>
+          </div>
+          <p class="resume-entry-subtitle">Club Finance Lead &amp; Event Director — University of Michigan</p>
+          <ul class="resume-bullets">
+            <li>Planned and executed cross-cultural events in collaboration with executive board members, university departments, and student organizations, creating opportunities for cultural exchange and community engagement for <strong>200+ attendees</strong>.</li>
+            <li>Coordinated event logistics, budgeting, and resource allocation with club leadership and campus partners, ensuring successful delivery of multiple large-scale programs while maintaining financial accountability.</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <a href="index.html" class="brand">
+        <span class="brand-mark"><span>MS</span></span>
+        <span class="brand-name">Michael Shepard</span>
+      </a>
+      <div class="footer-links">
+        <a href="https://linkedin.com/in/michael-shepard-356288233" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:michshep@umich.edu">Email</a>
+        <a href="resume.html">Resume</a>
+        <a href="https://github.com/MichShep" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </footer>
+  </body>
+</html>
